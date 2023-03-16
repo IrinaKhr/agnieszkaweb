@@ -28,9 +28,7 @@
         </p>
       </div>
     </div>
-    <p class="contact">
-      <a href="/contactus/index.html" target="_blank">Get in touch</a>
-    </p>
+    <p class='contact'><router-link to='/contact' class='link'>Get in touch</router-link></p>
   </header>
 </template>
 
@@ -54,7 +52,7 @@ header h4 {
   width: 200px;
   height: 300px;
   margin: 5px;
-  background: url("https://static.wixstatic.com/media/ccd850b43b8e4e6bb634c30e8963ec77.jpg/v1/fill/w_920,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Camino%20r%C3%BAstico%20Beach.jpg")
+  background: url('@/assets/Maldives.jpeg')
     no-repeat 280px 0 fixed;
 }
 
@@ -66,6 +64,7 @@ button {
   border: none;
   position: relative;
   top: 250px;
+  font-size: 15px;
 }
 
 button:hover {
@@ -85,7 +84,7 @@ button:hover {
 .portrait {
   width: 150px;
   height: 150px;
-  background-image: url("https://static.wixstatic.com/media/ccd850b43b8e4e6bb634c30e8963ec77.jpg/v1/fill/w_920,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Camino%20r%C3%BAstico%20Beach.jpg");
+  background-image: url('@/assets/portrait.jpeg');
   background-size: cover;
   border-radius: 50%;
   padding-right: 130px;
@@ -97,6 +96,7 @@ button:hover {
   text-align: justify;
   margin-left: 150px;
   margin-bottom: 40px;
+  margin-top: 30px;
   display: flex;
   font-style: italic;
 }
