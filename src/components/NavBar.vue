@@ -3,7 +3,7 @@
     <ul class='navbar'>
       <li class='coach'>
         <h1>ENGLISH COACH</h1>
-        <p class='motto'>Language Coaching Translation</p>
+        <p class='motto'>Language Coaching and Translation</p>
       </li>
       <li><router-link to='/' id='home'>Home</router-link></li>
       <li class='nav'><router-link to='/service'>Services</router-link></li>
