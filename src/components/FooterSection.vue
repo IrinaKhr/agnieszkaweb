@@ -23,10 +23,10 @@
     </li>
   </div>
   <ul class="footerlist">
-    <li> <a class="footerhome" href="Aboutus">Home</a></li>
-    <li> <a href="Aboutus">Services</a></li>
-    <li> <a href="Projects">Testimonials</a></li>
-    <li> <a href="Policy">Privacy Policy</a></li>
+    <li> <router-link class="footerhome link" to='/'>Home</router-link></li>
+    <li> <router-link class='link' to='/service'>Services</router-link></li>
+    <li> <router-link class='link' to='/testimonials'>Testimonials</router-link></li>
+    <li> <router-link class='link' to='/contact'>Contact us</router-link></li>
   </ul>
 </footer>
 </template>
@@ -44,34 +44,30 @@ footer {
   display: flex;
   flex-flow: column;
   list-style: none;
-  margin: 50px;
-  padding-left: 30px;
-  padding-top: 30px;
   justify-content: space-evenly;
 }
 
 .getintouch p {
-  font-size: 12px;
+  font-size: 10px;
   margin: 0px;
 }
 .getintouch h5 {
   margin: 0px;
-  color: #514d67;
+  color: rgb(85, 5, 26);
 }
 
 .footerlist {
   list-style: none;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
-  margin: 60px;
+  margin: 30px;
   border-left: solid 1px;
 }
 
-.footerlist a {
+.footerlist .link {
   text-decoration: none;
-  color: #514d67;
-  margin: 0;
+  color: rgb(85, 5, 26);
+
 }
 
 .footerlist .footerhome:hover {
@@ -79,8 +75,5 @@ footer {
 }
 .footerlist .footerhome {
   color: rgb(255, 255, 255);
-}
-.footerlist a:hover {
-  color: #55051a;
 }
 </style>
