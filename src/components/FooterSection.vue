@@ -34,10 +34,9 @@
 footer {
   display: flex;
   margin: 0;
-  font-size: 13px;
-  background-color: #a90934;
-  color: white;
   justify-content: space-evenly;
+  background-color: white;
+  color: #514d67;
 }
 
 .getintouch {
@@ -48,12 +47,11 @@ footer {
 }
 
 .getintouch p {
-  font-size: 10px;
   margin: 0px;
+  color: rgb(85, 5, 26);
 }
 .getintouch h5 {
   margin: 0px;
-  color: rgb(85, 5, 26);
 }
 
 .footerlist {
@@ -66,14 +64,13 @@ footer {
 
 .footerlist .link {
   text-decoration: none;
-  color: rgb(85, 5, 26);
-
+  color: #514d67;
 }
 
 .footerlist .footerhome:hover {
   color: #55051a;
 }
 .footerlist .footerhome {
-  color: rgb(255, 255, 255);
+  color: #55051a;
 }
 </style>

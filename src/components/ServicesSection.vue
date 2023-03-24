@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h4>EXECUTIVE LANGUAGE SERVICES FOR PROFESSIONALS</h4>
+    <h3>EXECUTIVE LANGUAGE SERVICES FOR PROFESSIONALS</h3>
     <div id="mosaic_wrapper">
       <div class="panel"><button>Beginner</button></div>
       <div class="panel"><button>Conversation</button></div>
@@ -28,7 +28,6 @@
         </p>
       </div>
     </div>
-    <p class='contact'><router-link to='/contact' class='link'>Get in touch</router-link></p>
   </header>
 </template>
 
@@ -37,20 +36,17 @@ header {
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-
-header h4 {
-  font-size: 20px;
-  color: rgb(85, 5, 26);
+  margin: 40px 0 40px 0;
 }
 
 #mosaic_wrapper {
   display: flex;
+  margin: 40px 0 40px 0;
 }
 
 #mosaic_wrapper .panel {
   width: 200px;
-  height: 300px;
+  height: 350px;
   margin: 5px;
   background: url('@/assets/Maldives.jpeg')
     no-repeat 280px 0 fixed;
@@ -63,7 +59,7 @@ button {
   width: 200px;
   border: none;
   position: relative;
-  top: 250px;
+  top: 280px;
   font-size: 15px;
 }
 
@@ -77,8 +73,9 @@ button:hover {
   flex-direction: column;
 }
 .textboxone {
-  width: 400px;
+  width: 450px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .portrait {
@@ -92,12 +89,13 @@ button:hover {
 }
 
 .textboxtwo {
-  width: 650px;
+  width: 700px;
   text-align: justify;
   margin-left: 150px;
   margin-bottom: 40px;
   margin-top: 30px;
   display: flex;
   font-style: italic;
+  font-size: 18px;
 }
 </style>
