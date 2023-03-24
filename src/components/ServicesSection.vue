@@ -48,7 +48,7 @@ header {
   width: 200px;
   height: 350px;
   margin: 5px;
-  background: url('@/assets/Maldives.jpeg')
+  background: url('https://static.wixstatic.com/media/ccd850b43b8e4e6bb634c30e8963ec77.jpg/v1/fill/w_920,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Camino%20r%C3%BAstico%20Beach.jpg')
     no-repeat 280px 0 fixed;
 }
 

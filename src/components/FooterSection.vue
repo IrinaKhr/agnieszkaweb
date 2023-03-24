@@ -2,21 +2,21 @@
     <footer>
 <div class="getintouch">
     <li>
-      <h5> Email </h5>
+      <h6> Email </h6>
       <p> lotoslanguages@gmail.com </p>
     </li>
     <li>
-      <h5> Phone </h5>
+      <h6> Phone </h6>
       <p> +34647000123 </p>
     </li>
   </div>
   <div class="getintouch">
     <li>
-      <h5> Connect </h5>
+      <h6> Connect </h6>
       <p> LinkedIn </p>
     </li>
     <li>
-      <h5> Address </h5>
+      <h6> Address </h6>
       <p> 2972 Westheimer Rd. Santa Ana, <br>
         Illinois 85486
       </p>
@@ -50,7 +50,7 @@ footer {
   margin: 0px;
   color: rgb(85, 5, 26);
 }
-.getintouch h5 {
+.getintouch h6 {
   margin: 0px;
 }
 

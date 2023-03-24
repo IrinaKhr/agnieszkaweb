@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <NavBar/>
+    <div>This is About page </div>
+    <FooterSection/>
   </div>
 </template>
+
+<script>
+import NavBar from '@/components/NavBar.vue';
+import FooterSection from '@/components/FooterSection.vue';
+
+export default {
+  name: 'ServiceView',
+  components: {
+    NavBar,
+    FooterSection,
+  },
+};
+</script>

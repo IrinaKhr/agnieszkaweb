@@ -29,7 +29,7 @@
               curso personalizado.
             </p>
             <p class="testimonial-authors">
-              Mónica Barranco, Sales Project Manager, SIL Barcelona
+              Mónica Barranco, Sales Project Manager, <br>SIL Barcelona
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@
               “¡Clases muy divertidas e interactivas! Nos encanta el curso”.
             </p>
             <p class="testimonial-authors">
-              Lydia Baqués, Fisioterapeuta, Clínica Dexeus, Grupo Quirónsalud
+              Lydia Baqués, Fisioterapeuta, <br>Clínica Dexeus, Grupo Quirónsalud
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@
 }
 .testimonial-style .testimonial-authors {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: lighter;
   font-size: 20px;
   color: white;
   line-height: 20px;
