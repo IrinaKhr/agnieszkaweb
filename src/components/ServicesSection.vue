@@ -75,7 +75,7 @@ button:hover {
 .textboxone {
   width: 450px;
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .portrait {
@@ -96,6 +96,6 @@ button:hover {
   margin-top: 30px;
   display: flex;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
 }
 </style>

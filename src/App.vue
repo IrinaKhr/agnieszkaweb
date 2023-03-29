@@ -4,7 +4,7 @@
 
 <style>
 #app {
-  font-family: "Roboto";
+   font-family: "Baloo 2";
   text-align: center;
   background-color: rgb(232, 230, 230);
   color: rgb(85, 5, 26);
