@@ -7,6 +7,14 @@
       <div class="panel"><button>Business</button></div>
       <div class="panel"><button>Job Interview CV</button></div>
     </div>
+    <div class="wrapper">
+      </div>
+      <div class="mediabuttons">
+        <button>Beginner</button>
+        <button>Conversation</button>
+        <button>Business</button>
+        <button>Job Interview&CV</button>
+  </div>
     <div class="whoweare">
       <div class="textboxone">
         <p>
@@ -36,12 +44,14 @@ header {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 40px 0 40px 0;
+  margin: 50px 0 50px 0;
 }
 
 #mosaic_wrapper {
   display: flex;
-  margin: 40px 0 40px 0;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 2rem;
 }
 
 #mosaic_wrapper .panel {
@@ -59,8 +69,9 @@ button {
   width: 200px;
   border: none;
   position: relative;
-  top: 280px;
-  font-size: 15px;
+  top: 250px;
+  font-family: "Baloo 2", cursive;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -86,6 +97,7 @@ button:hover {
   border-radius: 50%;
   padding-right: 130px;
   margin-right: 130px;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
 }
 
 .textboxtwo {
@@ -97,5 +109,54 @@ button:hover {
   display: flex;
   font-style: italic;
   font-size: 20px;
+}
+@media (max-width: 600px) {
+header h3 {
+   font-size: 14px;
+}
+  #mosaic_wrapper {
+ display: none;
+}
+  .wrapper {
+      background: url("https://static.wixstatic.com/media/ccd850b43b8e4e6bb634c30e8963ec77.jpg/v1/fill/w_920,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Camino%20r%C3%BAstico%20Beach.jpg");
+    width:500px;
+    height:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .whoweare {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(-70deg, #f3f5f7, transparent 50%);
+  align-items: center;
+}
+.textboxone {
+  width: 500px;
+  text-align: justify;
+}
+
+.portrait {
+  width: 40px;
+  margin-left: 150px;
+  background-image: url("https://static.wixstatic.com/media/ccd850b43b8e4e6bb634c30e8963ec77.jpg/v1/fill/w_920,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Camino%20r%C3%BAstico%20Beach.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+}
+
+.textboxtwo {
+  width: 500px;
+  text-align: justify;
+  margin-left: 0px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: column;
+  font-style: italic;
+}
+
+  .mediabuttons {
+    display: flex;
+  }
 }
 </style>

@@ -93,12 +93,8 @@
 </template>
 
 <style>
-body {
-  font-family: "Baloo 2", cursive;
-  font-size: 16px;
-  color: rgb(85, 5, 26);
-  text-rendering: optimizeLegibility;
-  font-weight: initial;
+.postcard .t-dark {
+  color: #18151f;
 }
 
 .light {
@@ -114,8 +110,6 @@ p:hover {
 #pageHeaderTitle {
   margin: 2rem 0;
   text-transform: uppercase;
-  text-align: center;
-  font-size: 2.5rem;
 }
 
 /* Cards */
@@ -129,21 +123,20 @@ p:hover {
   position: relative;
 }
 
-.postcard .t-dark {
-  color: #18151f;
-}
-
 .postcard h1 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
   line-height: 1.2;
 }
 .postcard .small {
   font-size: 80%;
-  font-weight: bold;
+  padding-left: 30px;
 }
 .postcard .postcard__title {
-  font-size: 1.75rem;
+  padding-left: 30px;
+}
+
+.postcard .t-dark {
+  color: #18151f;
 }
 .postcard .postcard__img {
   max-height: 180px;
@@ -161,27 +154,31 @@ p:hover {
   border-radius: 5px;
   background-color: #424242;
   transition: width 0.2s ease;
+  margin-left: 30px;
 }
 .postcard .postcard__text {
-  padding: 1.5rem;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
 }
+
 .postcard .postcard__preview-txt {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
   height: 100%;
   color: rgb(85, 5, 26);
+  margin-left: 30px;
+  font-size: 20px;
 }
 .postcard .postcard__tagbox {
   display: flex;
   flex-flow: row wrap;
   font-size: 14px;
   margin: 20px 0 0 0;
-  padding: 0;
-  justify-content: center;
+  padding-left: 30px;
+
 }
 .contact {
   display: inline-block;
